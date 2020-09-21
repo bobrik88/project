@@ -1,0 +1,36 @@
+
+@media screen and (max-width: 760px){
+   .menu__link {
+      display: none;
+   }
+}
+@media screen and (min-width: 760px) and (max-width: 2100px){
+   .burger {
+      display: none;
+   }
+}
+@media screen and (max-width: 759px){
+.menu__list {
+   display: block;
+   position: fixed;
+   top: -100%;
+}
+
+}
+@media screen and (min-width: 100px) and (max-width: 1300px){
+.logo .logo__txt{
+   padding-left: 20px;
+}
+}
+
+@media screen and (max-width: 850px){
+   .section__box {
+      flex-direction:column;
+      text-align: center;
+      padding: 0px 100px;
+      margin: 0 auto;
+   }
+   .setion__img{
+      display: none;
+   }
+}
